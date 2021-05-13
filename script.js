@@ -1,4 +1,4 @@
-  console.log(create_random_string(8))
+document.getElementById('code_string').innerHTML = create_random_string(8)
 
 function create_random_string(string_length){
   var random_string = '';
